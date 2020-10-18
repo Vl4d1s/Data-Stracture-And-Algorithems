@@ -1,1 +1,1 @@
-const first = require('./Big-O/first.js')
+const first = require('./big-o/first.js')
