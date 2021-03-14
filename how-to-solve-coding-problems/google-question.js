@@ -14,8 +14,7 @@ function hasPairWithSum(arr, sum) {
 // O(n)
 function hasPairWithSum2(arr, sum) {
   const mySet = new Set();
-  const len = arr.length;
-  for (let i = 0; i < len; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (mySet.has(arr[i])) {
       return true;
     }
